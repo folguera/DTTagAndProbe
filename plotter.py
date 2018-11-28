@@ -1,8 +1,5 @@
-import argparse
-import sys
-import os
+import argparse, sys, os, json, copy
 from array import *
-import json
 
 """
 Function to define color plaette for 2D efficiency plots
@@ -112,8 +109,9 @@ for keyPlot in config:
                 print('Load plot \'{}\': {}'.format(inputFolders[iHisto], inputName))
                 print inputDir.Get(inputName).ClassName()
 
-                histo = inputDir.Get(inputName).Clone(str(iHisto))
+                histo = copy.deepcopy(inputDir.Get(inputName).Clone(str(iHisto)))
                 inputHistos[nameTag].append(histo)
+        inputFile.Close()
 
     # Set line color and marker style for each graph using given maps from config
     colorMap    = config[keyPlot]['plot']['colorMap']
@@ -224,11 +222,11 @@ for keyPlot in config:
             canvas.Update()
 
             if histoClass == "TEfficiency" and histoDim == 1:
-                histo = histograms[iHisto].GetPaintedGraph()
+                histo = copy.deepcopy(histograms[iHisto].GetPaintedGraph())
             elif histoClass == "TEfficiency" and histoDim == 2:
-                histo = histograms[iHisto].GetPaintedHistogram()
+                histo = copy.deepcopy(histograms[iHisto].GetPaintedHistogram())
             else :
-                histo = histograms[iHisto]
+                histo = copy.deepcopy(histograms[iHisto])
                 
             histo.GetXaxis().SetRangeUser(plotX[0], plotX[1])
 

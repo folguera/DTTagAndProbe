@@ -9,7 +9,7 @@
             {
                 "label"             : "inv. mass",
                 "legendEntry"       : "inv. mass",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "pairMass"
 		}
@@ -28,7 +28,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "pair_mass",
             "fileType"          : ["png", "pdf"]
         }
@@ -43,7 +43,7 @@
             {
                 "label"             : "relative iso",
                 "legendEntry"       : "relative iso",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeReliso"
 		}
@@ -63,7 +63,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "trk_iso",
             "fileType"          : ["png", "pdf"]
         }
@@ -78,7 +78,7 @@
             {
                 "label"             : "Pair dR vs probe pt",
                 "legendEntry"       : "Pair dR vs probe pt",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtVsPairDr"
 		}
@@ -97,7 +97,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "pair_dr_vs_probe_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -112,7 +112,7 @@
             {
                 "label"             : "|track_{x} - segment_{x}| vs probe pt",
                 "legendEntry"       : "|track_{x} - segment_{x}| vs probe pt",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeDxVsPtMB4"
 		}
@@ -131,7 +131,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "probe_dx_vs_probe_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -146,7 +146,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB1"
 		},
@@ -154,7 +154,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB2"
             },
@@ -162,7 +162,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB3"
             },
@@ -170,14 +170,14 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB4"
             }
         },
         "plot"      :
         {
-            "x"                 : [0.0, 200.0, "distance (cm)"],
+            "x"                 : [0.0, 200.0, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.8, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -189,7 +189,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "probe_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -204,7 +204,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB1"
 		},
@@ -212,7 +212,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB2"
             },
@@ -220,7 +220,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB3"
             },
@@ -228,7 +228,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB4"
             }
@@ -247,7 +247,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "probe_eta",
             "fileType"          : ["png", "pdf"]
         }
@@ -262,7 +262,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB1"
 		},
@@ -270,7 +270,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB2"
             },
@@ -278,7 +278,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB3"
             },
@@ -286,7 +286,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB4"
             }
@@ -305,7 +305,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "probe_phi",
             "fileType"          : ["png", "pdf"]
         }
@@ -320,7 +320,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec1_MB1"
 		},
@@ -329,7 +329,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec1_MB2"
 		},
@@ -338,7 +338,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec1_MB3"
 		},
@@ -347,7 +347,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec1_MB4"
 		}
@@ -355,7 +355,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -367,7 +367,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec1",
             "fileType"          : ["png", "pdf"]
         }
@@ -382,7 +382,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec1_MB1"
 		},
@@ -391,7 +391,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec1_MB2"
 		},
@@ -400,7 +400,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec1_MB3"
 		},
@@ -409,7 +409,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec1_MB4"
 		}
@@ -417,7 +417,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -429,7 +429,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec1",
             "fileType"          : ["png", "pdf"]
         }
@@ -444,7 +444,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec1_MB1"
 		},
@@ -453,7 +453,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec1_MB2"
 		},
@@ -462,7 +462,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec1_MB3"
 		},
@@ -471,7 +471,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec1_MB4"
         }
@@ -479,7 +479,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -491,7 +491,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec1",
             "fileType"          : ["png", "pdf"]
         }
@@ -506,7 +506,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec1_MB1"
 		},
@@ -515,7 +515,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec1_MB2"
 		},
@@ -524,7 +524,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec1_MB3"
 		},
@@ -533,7 +533,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec1_MB4"
         }
@@ -541,7 +541,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -553,7 +553,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec1",
             "fileType"          : ["png", "pdf"]
         }
@@ -568,7 +568,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec1_MB1"
 		},
@@ -577,7 +577,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec1_MB2"
 		},
@@ -586,7 +586,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec1_MB3"
 		},
@@ -595,7 +595,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec1_MB4"
         }
@@ -603,7 +603,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -615,7 +615,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec1",
             "fileType"          : ["png", "pdf"]
         }
@@ -631,7 +631,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec2_MB1"
 		},
@@ -640,7 +640,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec2_MB2"
 		},
@@ -649,7 +649,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec2_MB3"
 		},
@@ -658,7 +658,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec2_MB4"
         }
@@ -666,7 +666,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -678,7 +678,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec2",
             "fileType"          : ["png", "pdf"]
         }
@@ -693,7 +693,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec2_MB1"
 		},
@@ -702,7 +702,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec2_MB2"
 		},
@@ -711,7 +711,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec2_MB3"
 		},
@@ -720,7 +720,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec2_MB4"
         }
@@ -728,7 +728,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -740,7 +740,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec2",
             "fileType"          : ["png", "pdf"]
         }
@@ -755,7 +755,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec2_MB1"
 		},
@@ -764,7 +764,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec2_MB2"
 		},
@@ -773,7 +773,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec2_MB3"
 		},
@@ -782,7 +782,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec2_MB4"
         }
@@ -790,7 +790,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -802,7 +802,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec2",
             "fileType"          : ["png", "pdf"]
         }
@@ -817,7 +817,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec2_MB1"
 		},
@@ -826,7 +826,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec2_MB2"
 		},
@@ -835,7 +835,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec2_MB3"
 		},
@@ -844,7 +844,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec2_MB4"
         }
@@ -852,7 +852,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -864,7 +864,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec2",
             "fileType"          : ["png", "pdf"]
         }
@@ -879,7 +879,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec2_MB1"
 		},
@@ -888,7 +888,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec2_MB2"
 		},
@@ -897,7 +897,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec2_MB3"
 		},
@@ -906,7 +906,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec2_MB4"
         }
@@ -914,7 +914,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -926,7 +926,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec2",
             "fileType"          : ["png", "pdf"]
         }
@@ -941,7 +941,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec3_MB1"
 		},
@@ -950,7 +950,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec3_MB2"
 		},
@@ -959,7 +959,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec3_MB3"
 		},
@@ -968,7 +968,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec3_MB4"
         }
@@ -976,7 +976,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -988,7 +988,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec3",
             "fileType"          : ["png", "pdf"]
         }
@@ -1003,7 +1003,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec3_MB1"
 		},
@@ -1012,7 +1012,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec3_MB2"
 		},
@@ -1021,7 +1021,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec3_MB3"
 		},
@@ -1030,7 +1030,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec3_MB4"
         }
@@ -1038,7 +1038,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1050,7 +1050,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec3",
             "fileType"          : ["png", "pdf"]
         }
@@ -1065,7 +1065,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec3_MB1"
 		},
@@ -1074,7 +1074,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec3_MB2"
 		},
@@ -1083,7 +1083,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec3_MB3"
 		},
@@ -1092,7 +1092,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec3_MB4"
         }
@@ -1100,7 +1100,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1112,7 +1112,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec3",
             "fileType"          : ["png", "pdf"]
         }
@@ -1127,7 +1127,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec3_MB1"
 		},
@@ -1136,7 +1136,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec3_MB2"
 		},
@@ -1145,7 +1145,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec3_MB3"
 		},
@@ -1154,7 +1154,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec3_MB4"
         }
@@ -1162,7 +1162,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1174,7 +1174,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec3",
             "fileType"          : ["png", "pdf"]
         }
@@ -1189,7 +1189,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec3_MB1"
 		},
@@ -1198,7 +1198,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec3_MB2"
 		},
@@ -1207,7 +1207,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec3_MB3"
 		},
@@ -1216,7 +1216,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec3_MB4"
         }
@@ -1224,7 +1224,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1236,7 +1236,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec3",
             "fileType"          : ["png", "pdf"]
         }
@@ -1251,7 +1251,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec4_MB1"
 		},
@@ -1260,7 +1260,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec4_MB2"
 		},
@@ -1269,7 +1269,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec4_MB3"
 		},
@@ -1278,7 +1278,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec4_MB4"
         }
@@ -1286,7 +1286,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1298,7 +1298,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec4",
             "fileType"          : ["png", "pdf"]
         }
@@ -1313,7 +1313,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec4_MB1"
 		},
@@ -1322,7 +1322,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec4_MB2"
 		},
@@ -1331,7 +1331,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec4_MB3"
 		},
@@ -1340,7 +1340,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec4_MB4"
         }
@@ -1348,7 +1348,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1360,7 +1360,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec4",
             "fileType"          : ["png", "pdf"]
         }
@@ -1375,7 +1375,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec4_MB1"
 		},
@@ -1384,7 +1384,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec4_MB2"
 		},
@@ -1393,7 +1393,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec4_MB3"
 		},
@@ -1402,7 +1402,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec4_MB4"
         }
@@ -1410,7 +1410,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1422,7 +1422,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec4",
             "fileType"          : ["png", "pdf"]
         }
@@ -1437,7 +1437,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec4_MB1"
 		},
@@ -1446,7 +1446,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec4_MB2"
 		},
@@ -1455,7 +1455,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec4_MB3"
 		},
@@ -1464,7 +1464,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec4_MB4"
         }
@@ -1472,7 +1472,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1484,7 +1484,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec4",
             "fileType"          : ["png", "pdf"]
         }
@@ -1499,7 +1499,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec4_MB1"
 		},
@@ -1508,7 +1508,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec4_MB2"
 		},
@@ -1517,7 +1517,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec4_MB3"
 		},
@@ -1526,7 +1526,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec4_MB4"
         }
@@ -1534,7 +1534,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1546,7 +1546,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec4",
             "fileType"          : ["png", "pdf"]
         }
@@ -1561,7 +1561,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec5_MB1"
 		},
@@ -1570,7 +1570,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec5_MB2"
 		},
@@ -1579,7 +1579,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec5_MB3"
 		},
@@ -1588,7 +1588,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec5_MB4"
         }
@@ -1596,7 +1596,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1608,7 +1608,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec5",
             "fileType"          : ["png", "pdf"]
         }
@@ -1623,7 +1623,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec5_MB1"
 		},
@@ -1632,7 +1632,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec5_MB2"
 		},
@@ -1641,7 +1641,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec5_MB3"
 		},
@@ -1650,7 +1650,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec5_MB4"
         }
@@ -1658,7 +1658,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1670,7 +1670,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec5",
             "fileType"          : ["png", "pdf"]
         }
@@ -1685,7 +1685,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec5_MB1"
 		},
@@ -1694,7 +1694,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec5_MB2"
 		},
@@ -1703,7 +1703,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec5_MB3"
 		},
@@ -1712,7 +1712,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec5_MB4"
         }
@@ -1720,7 +1720,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1732,7 +1732,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec5",
             "fileType"          : ["png", "pdf"]
         }
@@ -1747,7 +1747,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec5_MB1"
 		},
@@ -1756,7 +1756,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec5_MB2"
 		},
@@ -1765,7 +1765,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec5_MB3"
 		},
@@ -1774,7 +1774,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec5_MB4"
         }
@@ -1782,7 +1782,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1794,7 +1794,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec5",
             "fileType"          : ["png", "pdf"]
         }
@@ -1809,7 +1809,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec5_MB1"
 		},
@@ -1818,7 +1818,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec5_MB2"
 		},
@@ -1827,7 +1827,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec5_MB3"
 		},
@@ -1836,7 +1836,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec5_MB4"
         }
@@ -1844,7 +1844,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1856,7 +1856,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec5",
             "fileType"          : ["png", "pdf"]
         }
@@ -1871,7 +1871,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec6_MB1"
 		},
@@ -1880,7 +1880,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec6_MB2"
 		},
@@ -1889,7 +1889,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec6_MB3"
 		},
@@ -1898,7 +1898,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec6_MB4"
         }
@@ -1906,7 +1906,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1918,7 +1918,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec6",
             "fileType"          : ["png", "pdf"]
         }
@@ -1933,7 +1933,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec6_MB1"
 		},
@@ -1942,7 +1942,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec6_MB2"
 		},
@@ -1951,7 +1951,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec6_MB3"
 		},
@@ -1960,7 +1960,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec6_MB4"
         }
@@ -1968,7 +1968,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -1980,7 +1980,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec6",
             "fileType"          : ["png", "pdf"]
         }
@@ -1995,7 +1995,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec6_MB1"
 		},
@@ -2004,7 +2004,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec6_MB2"
 		},
@@ -2013,7 +2013,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec6_MB3"
 		},
@@ -2022,7 +2022,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec6_MB4"
         }
@@ -2030,7 +2030,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2042,7 +2042,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec6",
             "fileType"          : ["png", "pdf"]
         }
@@ -2057,7 +2057,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec6_MB1"
 		},
@@ -2066,7 +2066,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec6_MB2"
 		},
@@ -2075,7 +2075,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec6_MB3"
 		},
@@ -2084,7 +2084,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec6_MB4"
         }
@@ -2092,7 +2092,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2104,7 +2104,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec6",
             "fileType"          : ["png", "pdf"]
         }
@@ -2119,7 +2119,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec6_MB1"
 		},
@@ -2128,7 +2128,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec6_MB2"
 		},
@@ -2137,7 +2137,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec6_MB3"
 		},
@@ -2146,7 +2146,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec6_MB4"
         }
@@ -2154,7 +2154,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2166,7 +2166,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec6",
             "fileType"          : ["png", "pdf"]
         }
@@ -2181,7 +2181,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec7_MB1"
 		},
@@ -2190,7 +2190,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec7_MB2"
 		},
@@ -2199,7 +2199,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec7_MB3"
 		},
@@ -2208,7 +2208,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec7_MB4"
         }
@@ -2216,7 +2216,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2228,7 +2228,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec7",
             "fileType"          : ["png", "pdf"]
         }
@@ -2243,7 +2243,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec7_MB1"
 		},
@@ -2252,7 +2252,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec7_MB2"
 		},
@@ -2261,7 +2261,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec7_MB3"
 		},
@@ -2270,7 +2270,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec7_MB4"
         }
@@ -2278,7 +2278,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2290,7 +2290,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec7",
             "fileType"          : ["png", "pdf"]
         }
@@ -2305,7 +2305,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec7_MB1"
 		},
@@ -2314,7 +2314,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec7_MB2"
 		},
@@ -2323,7 +2323,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec7_MB3"
 		},
@@ -2332,7 +2332,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec7_MB4"
         }
@@ -2340,7 +2340,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2352,7 +2352,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec7",
             "fileType"          : ["png", "pdf"]
         }
@@ -2367,7 +2367,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec7_MB1"
 		},
@@ -2376,7 +2376,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec7_MB2"
 		},
@@ -2385,7 +2385,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec7_MB3"
 		},
@@ -2394,7 +2394,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec7_MB4"
         }
@@ -2402,7 +2402,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2414,7 +2414,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec7",
             "fileType"          : ["png", "pdf"]
         }
@@ -2429,7 +2429,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec7_MB1"
 		},
@@ -2438,7 +2438,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec7_MB2"
 		},
@@ -2447,7 +2447,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec7_MB3"
 		},
@@ -2456,7 +2456,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec7_MB4"
         }
@@ -2464,7 +2464,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2476,7 +2476,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec7",
             "fileType"          : ["png", "pdf"]
         }
@@ -2491,7 +2491,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec8_MB1"
 		},
@@ -2500,7 +2500,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec8_MB2"
 		},
@@ -2509,7 +2509,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec8_MB3"
 		},
@@ -2518,7 +2518,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec8_MB4"
         }
@@ -2526,7 +2526,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2538,7 +2538,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec8",
             "fileType"          : ["png", "pdf"]
         }
@@ -2553,7 +2553,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec8_MB1"
 		},
@@ -2562,7 +2562,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec8_MB2"
 		},
@@ -2571,7 +2571,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec8_MB3"
 		},
@@ -2580,7 +2580,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec8_MB4"
         }
@@ -2588,7 +2588,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2600,7 +2600,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec8",
             "fileType"          : ["png", "pdf"]
         }
@@ -2615,7 +2615,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec8_MB1"
 		},
@@ -2624,7 +2624,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec8_MB2"
 		},
@@ -2633,7 +2633,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec8_MB3"
 		},
@@ -2642,7 +2642,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec8_MB4"
         }
@@ -2650,7 +2650,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2662,7 +2662,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec8",
             "fileType"          : ["png", "pdf"]
         }
@@ -2677,7 +2677,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec8_MB1"
 		},
@@ -2686,7 +2686,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec8_MB2"
 		},
@@ -2695,7 +2695,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec8_MB3"
 		},
@@ -2704,7 +2704,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec8_MB4"
         }
@@ -2712,7 +2712,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2724,7 +2724,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec8",
             "fileType"          : ["png", "pdf"]
         }
@@ -2739,7 +2739,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec8_MB1"
 		},
@@ -2748,7 +2748,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec8_MB2"
 		},
@@ -2757,7 +2757,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec8_MB3"
 		},
@@ -2766,7 +2766,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec8_MB4"
         }
@@ -2774,7 +2774,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2786,7 +2786,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec8",
             "fileType"          : ["png", "pdf"]
         }
@@ -2801,7 +2801,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec9_MB1"
 		},
@@ -2810,7 +2810,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec9_MB2"
 		},
@@ -2819,7 +2819,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec9_MB3"
 		},
@@ -2828,7 +2828,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec9_MB4"
         }
@@ -2836,7 +2836,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2848,7 +2848,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec9",
             "fileType"          : ["png", "pdf"]
         }
@@ -2863,7 +2863,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec9_MB1"
 		},
@@ -2872,7 +2872,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec9_MB2"
 		},
@@ -2881,7 +2881,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec9_MB3"
 		},
@@ -2890,7 +2890,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec9_MB4"
         }
@@ -2898,7 +2898,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2910,7 +2910,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec9",
             "fileType"          : ["png", "pdf"]
         }
@@ -2925,7 +2925,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec9_MB1"
 		},
@@ -2934,7 +2934,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec9_MB2"
 		},
@@ -2943,7 +2943,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec9_MB3"
 		},
@@ -2952,7 +2952,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec9_MB4"
         }
@@ -2960,7 +2960,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -2972,7 +2972,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec9",
             "fileType"          : ["png", "pdf"]
         }
@@ -2987,7 +2987,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec9_MB1"
 		},
@@ -2996,7 +2996,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec9_MB2"
 		},
@@ -3005,7 +3005,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec9_MB3"
 		},
@@ -3014,7 +3014,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec9_MB4"
         }
@@ -3022,7 +3022,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3034,7 +3034,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec9",
             "fileType"          : ["png", "pdf"]
         }
@@ -3049,7 +3049,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec9_MB1"
 		},
@@ -3058,7 +3058,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec9_MB2"
 		},
@@ -3067,7 +3067,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec9_MB3"
 		},
@@ -3076,7 +3076,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec9_MB4"
         }
@@ -3084,7 +3084,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3096,7 +3096,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec9",
             "fileType"          : ["png", "pdf"]
         }
@@ -3111,7 +3111,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec10_MB1"
 		},
@@ -3120,7 +3120,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec10_MB2"
 		},
@@ -3129,7 +3129,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec10_MB3"
 		},
@@ -3138,7 +3138,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec10_MB4"
         }
@@ -3146,7 +3146,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3158,7 +3158,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec10",
             "fileType"          : ["png", "pdf"]
         }
@@ -3173,7 +3173,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec10_MB1"
 		},
@@ -3182,7 +3182,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec10_MB2"
 		},
@@ -3191,7 +3191,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec10_MB3"
 		},
@@ -3200,7 +3200,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec10_MB4"
         }
@@ -3208,7 +3208,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3220,7 +3220,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec10",
             "fileType"          : ["png", "pdf"]
         }
@@ -3235,7 +3235,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec10_MB1"
 		},
@@ -3244,7 +3244,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec10_MB2"
 		},
@@ -3253,7 +3253,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec10_MB3"
 		},
@@ -3262,7 +3262,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec10_MB4"
         }
@@ -3270,7 +3270,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3282,7 +3282,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec10",
             "fileType"          : ["png", "pdf"]
         }
@@ -3297,7 +3297,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec10_MB1"
 		},
@@ -3306,7 +3306,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec10_MB2"
 		},
@@ -3315,7 +3315,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec10_MB3"
 		},
@@ -3324,7 +3324,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec10_MB4"
         }
@@ -3332,7 +3332,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3344,7 +3344,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec10",
             "fileType"          : ["png", "pdf"]
         }
@@ -3359,7 +3359,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec10_MB1"
 		},
@@ -3368,7 +3368,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec10_MB2"
 		},
@@ -3377,7 +3377,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec10_MB3"
 		},
@@ -3386,7 +3386,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec10_MB4"
         }
@@ -3394,7 +3394,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3406,7 +3406,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec10",
             "fileType"          : ["png", "pdf"]
         }
@@ -3421,7 +3421,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec11_MB1"
 		},
@@ -3430,7 +3430,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec11_MB2"
 		},
@@ -3439,7 +3439,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec11_MB3"
 		},
@@ -3448,7 +3448,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec11_MB4"
         }
@@ -3456,7 +3456,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3468,7 +3468,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec11",
             "fileType"          : ["png", "pdf"]
         }
@@ -3483,7 +3483,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec11_MB1"
 		},
@@ -3492,7 +3492,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec11_MB2"
 		},
@@ -3501,7 +3501,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec11_MB3"
 		},
@@ -3510,7 +3510,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec11_MB4"
         }
@@ -3518,7 +3518,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3530,7 +3530,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec11",
             "fileType"          : ["png", "pdf"]
         }
@@ -3545,7 +3545,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec11_MB1"
 		},
@@ -3554,7 +3554,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec11_MB2"
 		},
@@ -3563,7 +3563,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec11_MB3"
 		},
@@ -3572,7 +3572,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec11_MB4"
         }
@@ -3580,7 +3580,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3592,7 +3592,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec11",
             "fileType"          : ["png", "pdf"]
         }
@@ -3607,7 +3607,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec11_MB1"
 		},
@@ -3616,7 +3616,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec11_MB2"
 		},
@@ -3625,7 +3625,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec11_MB3"
 		},
@@ -3634,7 +3634,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec11_MB4"
         }
@@ -3642,7 +3642,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3654,7 +3654,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec11",
             "fileType"          : ["png", "pdf"]
         }
@@ -3669,7 +3669,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec11_MB1"
 		},
@@ -3678,7 +3678,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec11_MB2"
 		},
@@ -3687,7 +3687,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec11_MB3"
 		},
@@ -3696,7 +3696,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec11_MB4"
         }
@@ -3704,7 +3704,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3716,7 +3716,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec11",
             "fileType"          : ["png", "pdf"]
         }
@@ -3731,7 +3731,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec12_MB1"
 		},
@@ -3740,7 +3740,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec12_MB2"
 		},
@@ -3749,7 +3749,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec12_MB3"
 		},
@@ -3758,7 +3758,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec12_MB4"
         }
@@ -3766,7 +3766,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3778,7 +3778,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec12",
             "fileType"          : ["png", "pdf"]
         }
@@ -3793,7 +3793,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec12_MB1"
 		},
@@ -3802,7 +3802,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec12_MB2"
 		},
@@ -3811,7 +3811,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec12_MB3"
 		},
@@ -3820,7 +3820,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec12_MB4"
         }
@@ -3828,7 +3828,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3840,7 +3840,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec12",
             "fileType"          : ["png", "pdf"]
         }
@@ -3855,7 +3855,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec12_MB1"
 		},
@@ -3864,7 +3864,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec12_MB2"
 		},
@@ -3873,7 +3873,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec12_MB3"
 		},
@@ -3882,7 +3882,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec12_MB4"
         }
@@ -3890,7 +3890,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3902,7 +3902,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec12",
             "fileType"          : ["png", "pdf"]
         }
@@ -3917,7 +3917,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec12_MB1"
 		},
@@ -3926,7 +3926,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec12_MB2"
 		},
@@ -3935,7 +3935,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec12_MB3"
 		},
@@ -3944,7 +3944,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec12_MB4"
         }
@@ -3952,7 +3952,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -3964,7 +3964,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec12",
             "fileType"          : ["png", "pdf"]
         }
@@ -3979,7 +3979,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec12_MB1"
 		},
@@ -3988,7 +3988,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec12_MB2"
 		},
@@ -3997,7 +3997,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec12_MB3"
 		},
@@ -4006,7 +4006,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec12_MB4"
         }
@@ -4014,7 +4014,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4026,7 +4026,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec12",
             "fileType"          : ["png", "pdf"]
         }
@@ -4041,7 +4041,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec13_MB1"
 		},
@@ -4050,7 +4050,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec13_MB2"
 		},
@@ -4059,7 +4059,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec13_MB3"
 		},
@@ -4068,7 +4068,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec13_MB4"
         }
@@ -4076,7 +4076,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4088,7 +4088,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec13",
             "fileType"          : ["png", "pdf"]
         }
@@ -4103,7 +4103,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec13_MB1"
 		},
@@ -4112,7 +4112,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec13_MB2"
 		},
@@ -4121,7 +4121,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec13_MB3"
 		},
@@ -4130,7 +4130,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec13_MB4"
         }
@@ -4138,7 +4138,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4150,7 +4150,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec13",
             "fileType"          : ["png", "pdf"]
         }
@@ -4165,7 +4165,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec13_MB1"
 		},
@@ -4174,7 +4174,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec13_MB2"
 		},
@@ -4183,7 +4183,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec13_MB3"
 		},
@@ -4192,7 +4192,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec13_MB4"
         }
@@ -4200,7 +4200,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-500.0, 500.0, "distance (cm)"],
+            "x"                 : [-500.0, 500.0, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4212,7 +4212,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec13",
             "fileType"          : ["png", "pdf"]
         }
@@ -4227,7 +4227,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec13_MB1"
 		},
@@ -4236,7 +4236,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec13_MB2"
 		},
@@ -4245,7 +4245,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec13_MB3"
 		},
@@ -4254,7 +4254,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec13_MB4"
         }
@@ -4262,7 +4262,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4274,7 +4274,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec13",
             "fileType"          : ["png", "pdf"]
         }
@@ -4289,7 +4289,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec13_MB1"
 		},
@@ -4298,7 +4298,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec13_MB2"
 		},
@@ -4307,7 +4307,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec13_MB3"
 		},
@@ -4316,7 +4316,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec13_MB4"
         }
@@ -4324,7 +4324,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4336,7 +4336,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec13",
             "fileType"          : ["png", "pdf"]
         }
@@ -4351,7 +4351,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec14_MB1"
 		},
@@ -4360,7 +4360,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec14_MB2"
 		},
@@ -4369,7 +4369,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec14_MB3"
 		},
@@ -4378,7 +4378,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm2_Sec14_MB4"
         }
@@ -4386,7 +4386,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4398,7 +4398,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm2_Sec14",
             "fileType"          : ["png", "pdf"]
         }
@@ -4413,7 +4413,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec14_MB1"
 		},
@@ -4422,7 +4422,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec14_MB2"
 		},
@@ -4431,7 +4431,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec14_MB3"
 		},
@@ -4440,7 +4440,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whm1_Sec14_MB4"
         }
@@ -4448,7 +4448,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4460,7 +4460,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whm1_Sec14",
             "fileType"          : ["png", "pdf"]
         }
@@ -4475,7 +4475,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec14_MB1"
 		},
@@ -4484,7 +4484,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec14_MB2"
 		},
@@ -4493,7 +4493,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec14_MB3"
 		},
@@ -4502,7 +4502,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Wh0_Sec14_MB4"
         }
@@ -4510,7 +4510,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4522,7 +4522,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Wh0_Sec14",
             "fileType"          : ["png", "pdf"]
         }
@@ -4537,7 +4537,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec14_MB1"
 		},
@@ -4546,7 +4546,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec14_MB2"
 		},
@@ -4555,7 +4555,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec14_MB3"
 		},
@@ -4564,7 +4564,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp1_Sec14_MB4"
         }
@@ -4572,7 +4572,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4584,7 +4584,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp1_Sec14",
             "fileType"          : ["png", "pdf"]
         }
@@ -4599,7 +4599,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec14_MB1"
 		},
@@ -4608,7 +4608,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec14_MB2"
 		},
@@ -4617,7 +4617,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec14_MB3"
 		},
@@ -4626,7 +4626,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results_1M_Run2018C.root",
+                "filename"          : "results_5M_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "TM_PhiResidualIn_Whp2_Sec14_MB4"
         }
@@ -4634,7 +4634,7 @@
         },
         "plot"      :
         {
-            "x"                 : [-10.025, 10.025, "distance (cm)"],
+            "x"                 : [-10.025, 10.025, "tan(#varphi^{tri})-tan(#varphi^{seg})"],
             "y"                 : [0.0, 1.05, "Entries"],
             "option"            : "",
             "legendTitle"       : "",
@@ -4646,7 +4646,7 @@
         },
         "output"    :
         {
-            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/TMuxIn/phi/",
             "filenamePlot"      : "res_phi_Whp2_Sec14",
             "fileType"          : ["png", "pdf"]
         }

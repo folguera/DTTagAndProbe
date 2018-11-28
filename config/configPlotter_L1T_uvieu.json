@@ -9,7 +9,7 @@
             {
                 "label"             : "inv. mass",
                 "legendEntry"       : "inv. mass",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "pairMass"
 		}
@@ -28,7 +28,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "pair_mass",
             "fileType"          : ["png", "pdf"]
         }
@@ -43,7 +43,7 @@
             {
                 "label"             : "relative iso",
                 "legendEntry"       : "relative iso",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeReliso"
 		}
@@ -63,7 +63,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "trk_iso",
             "fileType"          : ["png", "pdf"]
         }
@@ -78,7 +78,7 @@
             {
                 "label"             : "Pair dR vs probe pt",
                 "legendEntry"       : "Pair dR vs probe pt",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtVsPairDr"
 		}
@@ -97,7 +97,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "pair_dr_vs_probe_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -112,7 +112,7 @@
             {
                 "label"             : "|track_{x} - segment_{x}| vs probe pt",
                 "legendEntry"       : "|track_{x} - segment_{x}| vs probe pt",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeDxVsPtMB4"
 		}
@@ -131,7 +131,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "probe_dx_vs_probe_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -146,7 +146,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB1"
 		},
@@ -154,7 +154,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB2"
             },
@@ -162,7 +162,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB3"
             },
@@ -170,7 +170,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePtMB4"
             }
@@ -189,7 +189,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "probe_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -204,7 +204,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB1"
 		},
@@ -212,7 +212,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB2"
             },
@@ -220,7 +220,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB3"
             },
@@ -228,7 +228,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probeEtaMB4"
             }
@@ -247,7 +247,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "probe_eta",
             "fileType"          : ["png", "pdf"]
         }
@@ -262,7 +262,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB1"
 		},
@@ -270,7 +270,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB2"
             },
@@ -278,7 +278,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB3"
             },
@@ -286,7 +286,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "probePhiMB4"
             }
@@ -305,7 +305,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "probe_phi",
             "fileType"          : ["png", "pdf"]
         }
@@ -320,7 +320,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPtMB1"
 		},
@@ -328,7 +328,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPtMB2"
             },
@@ -336,7 +336,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPtMB3"
             },
@@ -344,7 +344,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPtMB4"
             }
@@ -363,7 +363,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_vs_pt",
             "fileType"          : ["png", "pdf"]
         }
@@ -378,7 +378,7 @@
             {
                 "label"             : "",
                 "legendEntry"       : "",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_SecVsWhMB1"
 	     }
@@ -398,7 +398,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_sec_vs_wh_MB1",
             "fileType"          : ["png", "pdf"]
         }
@@ -413,7 +413,7 @@
             {
                 "label"             : "",
                 "legendEntry"       : "",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_SecVsWhMB2"
 	     }
@@ -433,7 +433,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_sec_vs_wh_MB2",
             "fileType"          : ["png", "pdf"]
         }
@@ -448,7 +448,7 @@
             {
                 "label"             : "",
                 "legendEntry"       : "",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_SecVsWhMB3"
 	     }
@@ -468,7 +468,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_sec_vs_wh_MB3",
             "fileType"          : ["png", "pdf"]
         }
@@ -483,7 +483,7 @@
             {
                 "label"             : "",
                 "legendEntry"       : "",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_SecVsWhMB4"
 	     }
@@ -503,7 +503,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_sec_vs_wh_MB4",
             "fileType"          : ["png", "pdf"]
         }
@@ -519,7 +519,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_ChambMB1"
 	    },
@@ -527,7 +527,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_ChambMB2"
 	    },
@@ -535,7 +535,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_ChambMB3"
 	    },
@@ -543,7 +543,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_ChambMB4"
 	     }
@@ -562,7 +562,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_chamb",
             "fileType"          : ["png", "pdf"]
         }
@@ -579,7 +579,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1  covers #||{#eta} < 1.20",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsEtaMB1"
 		},
@@ -587,7 +587,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2  covers #||{#eta} < 1.05",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsEtaMB2"
             },
@@ -595,7 +595,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3  covers #||{#eta} < 0.90",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsEtaMB3"
             },
@@ -603,7 +603,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4  covers #||{#eta} < 0.80",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsEtaMB4"
             }
@@ -622,7 +622,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_acc_vs_eta",
             "fileType"          : ["png", "pdf"]
         }
@@ -637,7 +637,7 @@
             {
                 "label"             : "mu +",
                 "legendEntry"       : "mu +",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiPlusMB1"
 		},
@@ -645,7 +645,7 @@
             {
                 "label"             : "mu -",
                 "legendEntry"       : "mu -",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiMinusMB1"
             }
@@ -664,7 +664,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_acc_vs_phi_MB1",
             "fileType"          : ["png", "pdf"]
         }
@@ -679,7 +679,7 @@
             {
                 "label"             : "mu +",
                 "legendEntry"       : "mu +",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiPlusMB2"
 		},
@@ -687,7 +687,7 @@
             {
                 "label"             : "mu -",
                 "legendEntry"       : "mu -",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiMinusMB2"
             }
@@ -706,7 +706,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_acc_vs_phi_MB2",
             "fileType"          : ["png", "pdf"]
         }
@@ -721,7 +721,7 @@
             {
                 "label"             : "mu +",
                 "legendEntry"       : "mu +",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiPlusMB3"
 		},
@@ -729,7 +729,7 @@
             {
                 "label"             : "mu -",
                 "legendEntry"       : "mu -",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiMinusMB3"
             }
@@ -748,7 +748,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_acc_vs_phi_MB3",
             "fileType"          : ["png", "pdf"]
         }
@@ -763,7 +763,7 @@
             {
                 "label"             : "mu +",
                 "legendEntry"       : "mu +",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiPlusMB4"
 		},
@@ -771,7 +771,7 @@
             {
                 "label"             : "mu -",
                 "legendEntry"       : "mu -",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsPhiMinusMB4"
             }
@@ -790,7 +790,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_acc_vs_phi_MB4",
             "fileType"          : ["png", "pdf"]
         }
@@ -805,7 +805,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsLumiMB1"
 		},
@@ -813,7 +813,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsLumiMB2"
             },
@@ -821,7 +821,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsLumiMB3"
             },
@@ -829,7 +829,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsLumiMB4"
             }
@@ -848,7 +848,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_vs_inst_lumi",
             "fileType"          : ["png", "pdf"]
         }
@@ -863,7 +863,7 @@
             {
                 "label"             : "MB1",
                 "legendEntry"       : "MB1",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsRunMB1"
 		},
@@ -871,7 +871,7 @@
             {
                 "label"             : "MB2",
                 "legendEntry"       : "MB2",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsRunMB2"
             },
@@ -879,7 +879,7 @@
             {
                 "label"             : "MB3",
                 "legendEntry"       : "MB3",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsRunMB3"
             },
@@ -887,7 +887,7 @@
             {
                 "label"             : "MB4",
                 "legendEntry"       : "MB4",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_VsRunMB4"
             }
@@ -906,7 +906,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_vs_run",
             "fileType"          : ["png", "pdf"]
         }
@@ -921,7 +921,7 @@
             {
                 "label"             : "",
                 "legendEntry"       : "",
-                "filename"          : "results.root",
+                "filename"          : "results_1k_Run2018C.root",
                 "folder"            : "",
                 "plot"		    : "trigeffAcc_whensegm_PhiVsEtaPlusMB1"
 	     }
@@ -941,7 +941,7 @@
         },
         "output"    :
         {
-            "directory"         : "/afs/cern.ch/user/f/folguera/www/private/L1TPhase2/DTLocalEff/180927_test/",
+            "directory"         : "/nfs/fanae/user/vrbouza/www/Proyectos/trigger_primitives/results/",
             "filenamePlot"      : "eff_eta_vs_phi_MB1",
             "fileType"          : ["png", "pdf"]
         }

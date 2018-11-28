@@ -1,5 +1,6 @@
 #include "DTTnPLocalTrigRes.h"
 
+
 DTTnPLocalTrigRes::DTTnPLocalTrigRes(const std::string & configFile) : DTTnPBaseAnalysis(configFile)
 {
 
@@ -255,7 +256,13 @@ void DTTnPLocalTrigRes::fill(const Int_t iMu)
 //SEGMENT	float phicenter =  dtsegm4D_phi;
 //SEGMENT	float deltaphi = phicenter-phin;
 //SEGMENT	float r = TMath::Sqrt(dtsegm4D_cosx->at(iPassingSeg)*dtsegm4D_cosx->at(iPassingSeg)+dtsegm4D_cosy->at(iPassingSeg)*dtsegm4D_cosy->at(iPassingSeg));
-	std::string hName = ""; 
+    
+    Float_t trigPos = 0.; 
+    Float_t trigDir = 0.;
+    Float_t deltaPos = 0.;
+    Float_t deltaDir = 0.;
+    
+    std::string hName = ""; 
 	if (iPassingTMuxIn >=0) {
 	  // In: 
 	  trigPos = ltTwinMuxIn_phi->at(iPassingTMuxIn);
